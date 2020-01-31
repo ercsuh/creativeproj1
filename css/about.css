@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Garamond, Georgia, sans-serif;
+    background-color: #f1ebe4;
+}
+
+.container {
+    min-height: 100%;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+/* ----- Menu ----- */
+.navbar, .collapse{
+    background-color: #CEC2B2;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    background-color: #CEC2B2;
+}
+
+.logo {
+    font-style: italic;
+    font-size: 30pt;
+    background-color: #CEC2B2;
+    color: #e55300;
+}
+
+.logo:hover {
+    color: #e55300;
+    text-decoration: none;
+}
+
+/* ----- Footer ----- */
+.footer {
+    clear: both;
+    bottom:0;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 100px;
+}
+
+.github {
+    color: black;
+}
+
+.github:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/* ----- About ------ */
+.row {
+    padding: 70px;
+    /* padding-top: 0px; */
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.portrait {
+    margin: auto;
+    width: 100%;
+}
+
+/* ------------------------------------------------------------------*/
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+    .title-header {
+        position: relative;
+    }
+    
+    .title-header-image {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        padding: 5px;
+        margin-top: 20px;
+        margin-bottom: 70px;
+    }
+
+    .title-header-text-block {
+        top: 90%;
+        left: 50%;
+        padding: 20px;
+        width: 60%;
+    }
+
+    .title-header-text-block h3 {
+        font-size: 6vw;
+    }
+
+    .title-header-text-block p {
+        font-size: 3vw;
+    }
+
+    .row {
+        padding: 30px;
+        margin-bottom: 0;
+    }
+    
+    .column {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .description h3 {
+        font-size: 5vw;
+    }
+
+    .description p {
+        font-size: 3.5vw;
+    }
+
+    .footer {
+        font-size: 2.5vw;
+    }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .title-header {
+        position: relative;
+    }
+    
+    .title-header-image {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        padding: 5px;
+        margin-top: 20px;
+        margin-bottom: 70px;
+    }
+
+    .title-header-text-block {
+        top: 90%;
+        left: 50%;
+        padding: 20px;
+        width: 60%;
+    }
+
+    .title-header-text-block h3 {
+        font-size: 5vw;
+    }
+
+    .title-header-text-block p {
+        font-size: 2vw;
+    }
+
+    .row {
+        padding: 30px;
+        margin-bottom: 0;
+    }
+    
+    .column {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .description h3 {
+        font-size: 4vw;
+    }
+
+    .description p {
+        font-size: 2.5vw;
+    }
+
+    .footer {
+        font-size: 2.5vw;
+    }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 901px) {
+    .column {
+        padding: 70px;
+    }
+    
+    .title-header-text-block {
+        transform: translate(-75%, -5%);
+        top: 65%;
+        left: 50%;
+        padding: 40px;
+        width: 50%;
+        font-size: 1.5vw;
+    }
+
+    .title-header-text-block h3 {
+        font-size: 3vw;
+    }
+
+    .title-header-text-block p {
+        font-size: 1.3vw;
+    }
+
+    .description h3 {
+        font-size: 2.5vw;
+    }
+
+    .description p {
+        font-size: 1.5w;
+    }
+}
