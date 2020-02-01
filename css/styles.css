@@ -17,25 +17,24 @@
 
 /* ----- Menu ----- */
 .navbar, .collapse{
-    background-color: #FDF0E0;
+    background-color: rgb(214,118,98);
 }
 
 .navbar-light .navbar-nav .nav-link {
-    background-color: #FDF0E0;
+    background-color: rgb(214,118,98);
 }
 
 .logo {
     /* font-style: italic; */
     font-size: 25pt;
     font-weight: bold;
-    background-color: #FDF0E0;
+    background-color: rgb(214,118,98);
     color: #1D2927;
     text-decoration: underline;
 }
 
 .logo:hover {
     color: #1D2927;
-    /* text-decoration: none; */
 }
 
 /* ----- Footer ----- */
@@ -73,7 +72,7 @@
     position: absolute;
     transform: translate(-50%, -50%);
     background-color: rgb(253, 240, 224, 0.7);
-    color: #e55300;
+    color: #1D2927;
     text-align: left;
 }
 
@@ -98,9 +97,10 @@
 
 .subheader {
     display: inline-block;
-    color: #e55300;
+    color: #D67662;
     border-top: 5px solid black;
     padding: 15px;
+    font-weight: bold;
 }
 
 .masonry {
@@ -134,7 +134,7 @@
     background: transparent;
     padding: 5px;
     color: black;
-    text-shadow: 1px 1px #e55300;
+    text-shadow: 1px 1px #D67662;
     font-weight: bold;
 }
 
@@ -219,6 +219,9 @@
         font-size: 2vw;
     }
 
+    .footer {
+        font-size: 1.5vw;
+    }
 }
 
 /* Desktop Styles */
@@ -250,5 +253,4 @@
     .masonry-item-label {
         font-size: 2vw;
     }
-
 }
